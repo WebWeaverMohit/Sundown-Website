@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#n-right h4::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 0.4s;
+    border-radius: 50%;
+}
+
+#n-right h4:hover{
+    color: #fff;
+    z-index: 9;
+}
+
+#n-right h4:hover::before{
+    bottom: 0;
+    border-radius: 0;
+}
+
+#hero-shape1{
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: anime1;
+}
+
+#hero-shape2{
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: anime2;
+}
+
+#hero-shape3{
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: anime3;
+}
+
+@keyframes anime1 {
+    from{
+        transform: translate(-20%,-20%);
+    }
+    to{
+        transform: translate(20%,20%);
+    }
+}
+
+@keyframes anime3 {
+    from{
+        transform: translate(-20%,20%);
+    }
+    to{
+        transform: translate(40%,-40%);
+    }
+}
+
+@keyframes anime2 {
+    from{
+        transform: translate(0%,50%);
+    }
+    to{
+        transform: translate(-0%,-0%);
+    }
+}
+
+#page2::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+.con{
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#mc #mc2{
+    animation-name: circle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+}
+
+@keyframes circle {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-40%, 20%);
+    }
+    100%{
+        transform: translate(00%, -30%);
+    }
+}
+
+.imageHide{
+    display: none;
+}
+
+
+
+.elem:hover .overlay{
+    top: 0;
+}
+
+.elem .overlay{
+    transition: all ease 0.5s;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .swiper-wrapper{
+    margin-left: -35%;
+  }

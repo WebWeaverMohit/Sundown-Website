@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./sundown.zip" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Sundown Studio</title>
+</head>
+<body>
+    <div class="fixed hidden h-96 w-80 rounded-lg top-60 left-[50%] z-50 bg-cover bg-center" id="fixed-image"></div>
+    <div class="relative z-[10]" id="main">
+        <div class="overlay h-screen opacity-0 gap-10 w-full bg-black absolute top-0 left-0 z-[10] flex items-center justify-center">
+            <h1 class="ha text-7xl opacity-0 font-semibold text-orange-600 uppercase">Environment</h1>
+            <h1 class=" hb text-7xl opacity-0 font-semibold text-orange-600 uppercase">experiences</h1>
+            <h1 class="hc text-7xl opacity-0 font-semibold text-orange-600 uppercase">Content</h1>
+        </div>
+        <div id="page1" class="overflow-x-hidden min-h-screen w-full bg-#eeeae2 relative px-8 py-4">
+            <div class="flex items-center justify-between h-28 w-full" id="nav">
+                <div id="n-left">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-4" id="n-right">
+                    <h4 class="overflow-hidden border-[1px] border-black relative py-1  rounded-full"><a class=" text-xl relative font-semibold px-4 py-1 " href="#">Work</a></h4>
+                    <h4 class="overflow-hidden border-[1px] border-black relative py-1  rounded-full"><a class=" text-xl relative font-semibold px-4 py-1 " href="#">Studio</a></h4>
+                    <h4 class="overflow-hidden border-[1px] border-black relative py-1  rounded-full"><a class=" text-xl relative font-semibold px-4 py-1 " href="#">Contact</a></h4>
+                </div>
+            </div>
+            <div class="flex justify-between border-b-2 pb-10" id="hero">
+                <h3 class="text-3xl font-semibold leading-8 mt-[25vw]">Sundown is a multi-disciplinary <br> studio focused on creating <br> unique, end-to-end experiences <br> and environments.</h3>
+                <div class="text-[22vh] font-bold leading-[80%] mt-10" id="hero-text">
+                    <h1>SPACES</h1>
+                    <h1>THE</h1>
+                    <h1>INSPIRE</h1>
+                </div>
+            </div>
+            <div class="absolute w-96 h-80 blur-xl rounded-full bg-orange-600 right-0 top-[37%] blur-6" id="hero-shape1"></div>
+            <div class="absolute w-96 h-80 blur-xl rounded-full bg-orange-600 right-[20%] top-[33%] blur-6" id="hero-shape2"></div>
+            <div class="absolute w-96 h-80 blur-xl rounded-full bg-orange-600 right-[10%] top-[50%] blur-6" id="hero-shape3"></div>
+            <div class="relative px-2 py-10 rounded-md h-screen w-full mt-10 overflow-hidden" id="vid">
+                <video autoplay muted loop class="h-full w-full object-cover rounded-lg" src="./c72af10b.mp4"></video>
+            </div>
+        </div>
+        <div class="min-h-screen relative w-full overflow-x-auto" id="page2">
+            <div class="h-96 w-96 absolute top-60 left-80 rounded-full" id="mc">
+                <div id="mc1" class="h-full w-full bg-orange-600 absolute blur-xl rounded-full" ></div>
+                <div id="mc2" class="h-full w-full bg-orange-600 absolute blur-xl rounded-full" ></div>
+            </div>
+            <div class="whitespace-nowrap flex inline-block" id="moving-text">
+                <div class="con whitespace-nowrap">
+                    <h1 class="text-black text-9xl font-semibold inline-block">EXPERIENCE</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-black text-9xl font-semibold inline-block">ENVIRONMENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-9xl text-black font-semibold inline-block">CONTENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                </div>
+                <div class="con whitespace-nowrap">
+                    <h1 class="text-black text-9xl font-semibold inline-block">EXPERIENCE</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-black text-9xl font-semibold inline-block">ENVIRONMENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-9xl text-black font-semibold inline-block">CONTENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                </div>
+                <div class="con whitespace-nowrap">
+                    <h1 class="text-black text-9xl font-semibold inline-block">EXPERIENCE</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-black text-9xl font-semibold inline-block">ENVIRONMENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                    <h1 class="text-9xl text-black font-semibold inline-block">CONTENT</h1>
+                    <div class="gola h-20 w-20 bg-orange-600 inline-block mx-7 my-2 rounded-full"></div>
+                </div>
+            </div>
+            <div class="flex h-full w-full items-center justify-between inline-block -mt-[10%] px-10" id="hero">
+                <div class="h-full w-1/2">
+                    <h1 class="text-5xl mt-10 relative font-semibold" >We are a group of design <br>-driven, goal-focused creators, <br> producers, and designers <br> who believe that the details <br> make all the difference.</h1>
+                </div>
+                <div class="h-full mr-10 w-1/2 align-right text-right mt-[20%]">
+                    <img class="text-right mt-10 align-right inline-block h-52 w-72 rounded-lg" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d1_Holding_thumb-p-500.jpg" alt="">
+                    <h3 class="mt-10 text-md" >We love to create, we love to solve, we love <br> to collaborate, and we love to turn amazing <br> ideas into reality. We’re here to partner with <br> you through every step of the process and <br> know that relationships are the most <br>e important things we build.</h3>
+                </div>
+            </div>
+            <div class="ml-10 flex gap-1 align-center" ><div class="mt-2 rounded-full h-3 w-3 bg-orange-600 "></div><h4 class="text-xl" >FEATURED PROJECTS</h4></div>
+        </div>
+        <div id="page3" class="min-h-screen pd-7 relative pt-7 w-full ">
+            <div id="elem-container">
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16c5_Copy%20of%20Nike_Soho_AMD21_0781_LORES.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >Air Force 1 2021</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >NIKE</h3>
+                        <h4>ENVIRONMENT</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b170d_AM704059.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >NYFW Popup</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >AFTERPAY</h3>
+                        <h4>EXPERIENTAL</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163d_Copy%20of%20DSC04086.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >SOHO 2023</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >CONVERSE</h3>
+                        <h4>ENVIRONMENT</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1733_Nike_HOI_50th_SU22_FL1_5388.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >Makers Studio HOI</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >NIKE</h3>
+                        <h4>EXPERIENTAL</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1698_Nike_Soho_Play-New-Kids_10-27-21_1950.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >Play New Kidvision</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >NIKE</h3>
+                        <h4>ENVIRONMENT</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16f4_Copy%20of%20Nike_Soho_50th_SU22_FL1_6176.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >50th Aniversary</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >NIKE</h3>
+                        <h4>ENVIRONMENT</h4>
+                    </div>
+                </div>
+                <div class="elem border-b-2 border-black h-32 flex overflow-y-hidden items-center justify-between relative px-10 py-7 w-full" data-image="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163b_Copy-of-IMG_1180-p-500.webp">
+                    <div class="overlay transition absolute top-[-100%] left-0  h-full w-full bg-orange-600"></div>
+                    <h2 class="text-6xl font-semibold relative" >SOHO NYC</h2>
+                    <div class="relative text-right">
+                        <h3 class="text-xl" >ARC'TERYX</h3>
+                        <h4>ENVIRONMENT</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-screen w-full px-10 py-8 bg-white-200" id="page4">
+            <div class="bg-black rounded-lg h-full flex align-center justify-center w-full overflow-hidden">
+                <div class="h-full w-1/2 flex flex-col justify-center align-center">
+                    <h1 id="des" class="text-8xl text-white capitalize cursor-pointer ml-[18%] font-bold">Design</h1>
+                    <h1 id="pro" class="text-8xl text-white capitalize cursor-pointer ml-[18%] opacity-30 font-bold">project</h1>
+                    <h1 id="exe" class="text-8xl text-white capitalize cursor-pointer ml-[18%] mb-[10%] opacity-30 font-bold">Execution</h1>
+                    <p id="para" class="w-[60%] text-white ml-[18%]">Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings.</p>
+                </div>
+                <div class="h-full rounded-lg relative w-1/2 bg-red-500 overflow-hidden">
+                    <img id="img1" class="h-full w-full object-cover absolute top-0 left-0" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15e1_Project-p-1080.jpg" alt="">
+                    <img id="img2" class="h-full w-full object-cover absolute top-0 left-0" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15d0_Project.webp" alt="">
+                    <img id="img3" class="h-full w-full object-cover absolute top-0 left-0" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15cd_Execution-p-1080.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="page4 flex items-center h-[60vh] w-full bg-#eeebe3">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide border-l px-4 py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg" alt="">
+                    <h4 class="w-[90%]">Retained Production support across retail and events in NY,CHI,LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the country.</h4>
+                  </div>
+                  <div class="swiper-slide px-4 border-l py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1600_Converse.svg" alt="">
+                    <h4 class="w-[90%]">Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the country. Cross functional communication and management of third party partners.</h4>
+                  </div>
+                  <div class="swiper-slide px-4 border-l py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fd_Arc%E2%80%99teryx.svg" alt="">
+                    <h4 class="w-[90%]">Production and design along with install overnight and execution support for the SoHo store opening on Broadway st, New York. Also working on creative and production work for a new store store opening in Glendale, California.</h4>
+                  </div>
+                  <div class="swiper-slide px-4 border-l py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fe_Hunter.svg" alt="">
+                    <h4 class="w-[90%]">Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstorm 57th St, New York, including activations in Women's, Men's and Kid's zones. Thirty-five(35) additional smaller take-downs in Nordstorm stores across the US. Concept design for Holiday boot customization events in stores across winter 2022.</h4>
+                  </div>
+                  <div class="swiper-slide px-4 border-l py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1601_MediaLink.svg" alt="">
+                    <h4 class="w-[90%]">Cretive, Desi , and Production Partner for 2023 CES. Scope Included creation of Branding Identity, Assets, and Digital Content, Design, Production design, Production oversight and Installation of client activations for IBM, Delta,, Instacart, and more.</h4>
+                  </div>
+                  <div class="swiper-slide px-4 border-l py-4 text-left">
+                    <img class="w-56 object-cover mb-5 object-center" src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1602_AfterPay.svg" alt="">
+                    <h4 class="w-[90%]">Creative, Design, and Production Partner for 2022 NY Fashion Week Pop-Up space. In Partnership withB-Reel scope including creation of Final Design, Design Assets, 3D Renders,, Production design, Production/Partner oversight and creation of a two(2) story pop-up for Afterpay's clients sich as Crocs, JD Sports, Container Store, & Revolve.</h4>
+                  </div>
+              </div>
+        </div>
+    </div>
+    <div class="page5 relative h-screen w-full text-white bg-black px-6 py-8">
+        <div class="top mt-[6%] flex align-center justify-between px-10">
+            <div>
+                <h1 class="text-4xl font-semibold">Work</h1>
+                <h1 class="text-4xl font-semibold">Studio</h1>
+                <h1 class="text-4xl font-semibold">Contact</h1>
+            </div>
+            <div>
+                <p class="text-xl mb-5">Get Industry insights and Creative <br>Inspiration straight to your inbox.</p>
+                <input class="bg-transparent border-b pb-2 w-72" type="Email" placeholder="Email address">
+            </div>
+        </div>
+        <h2 class="text-center text-[320px] font-bold -mt-10">Sundown</h2>
+        <div class="btm flex align-center justify-between -mt-4 px-10 border-t pt-5">
+            <h3>Copyright ©️ Sundown Studio</h3>
+            <h3>Brooklyn, NY</h3>
+            <h3>Instagram</h3>
+            <h3>LinkedIn</h3>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
